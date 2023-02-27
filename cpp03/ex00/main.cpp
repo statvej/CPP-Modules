@@ -2,13 +2,13 @@
 
 int main()
 {
-    ClapTrap pp("hui");
+    ClapTrap bro("Fedia");
 
-    pp.attack("loh");
-    pp.takeDamage(5);
-    pp.beRepaired(1);
-    pp.takeDamage(5);
-    pp.takeDamage(5);
-    pp.takeDamage(5);
-    pp.attack("loh");
+    bro.attack("Jora");
+    bro.takeDamage(5);
+    bro.beRepaired(1);
+    bro.takeDamage(5);
+    bro.takeDamage(5);
+    bro.takeDamage(5);
+    bro.attack("Jora");
 }
