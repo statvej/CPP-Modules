@@ -2,7 +2,7 @@
 
 int main(){
     try{
-        Bureaucrat plancton("Bob", 100);
+        Bureaucrat plancton;
         plancton.decreaseScoreBy(40);
         std::cout << plancton;
     }
