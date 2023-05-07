@@ -1,11 +1,11 @@
-SRCS			= main.cpp bitcoinExchange.cpp Date.cpp
+SRCS			= main.cpp
 OBJS			= $(SRCS:.cpp=.o)
 
 CXX				= c++
 RM				= rm -f
-CXXFLAGS		= -I. -Wall -Wextra -Werror -g  -std=c++98
+CXXFLAGS		= -I. -Wall -Wextra -Werror -g -std=c++98
 
-NAME			= btc
+NAME			= PmergeMe
 all:	$(NAME)
 
 $(NAME):	$(OBJS)

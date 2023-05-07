@@ -14,7 +14,6 @@ BitcoinExchange::BitcoinExchange(std::string db_file) {
         if (buf != "date,exchange_rate") {
             size_t comaPos = buf.find(',');
             tempDate = createDate(buf);
-            // std::cout << tempDate << std::endl;
             bitcoinDB.insert(std::make_pair(tempDate, stof(buf.substr(comaPos + 1, buf.length()))));
         }
     }

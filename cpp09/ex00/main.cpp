@@ -9,7 +9,6 @@ int main(int ac, char** av) {
         try {
 
             BitcoinExchange exchange("data.csv");
-            std::cout << exchange << std::endl;
             exchange.processInput(av[1]);
         }
         catch (std::exception& e) {

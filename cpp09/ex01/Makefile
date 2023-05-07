@@ -3,9 +3,9 @@ OBJS			= $(SRCS:.cpp=.o)
 
 CXX				= c++
 RM				= rm -f
-CXXFLAGS		= -I. -Wall -Wextra -Werror -g
+CXXFLAGS		= -I. -Wall -Wextra -Werror -g  -std=c++98
 
-NAME			= a.out
+NAME			= RPN
 all:	$(NAME)
 
 $(NAME):	$(OBJS)
